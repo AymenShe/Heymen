@@ -80,7 +80,7 @@ function ProjectPage() {
             </div>
            <div className="projectPage-container">
                <div className="projectPage-search">
-                   <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search project..." className={classes.search} />
+                   <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Rechercher un projet..." className={classes.search} />
                </div>
                <div className="project-container">
                    <Grid className="project-grid" container direction="row" alignItems="center" justifyContent="center">
