@@ -17,7 +17,7 @@ function Experience() {
                      <img src={theme.expimg} alt="" />
                  </div>
                  <div className="experience-description">
-                    <h1 style={{color:theme.primary}}>Éxperience</h1>
+                    <h1 style={{color:theme.primary}}>Expérience</h1>
                     {experienceData.map(exp =>(
                         <ExperienceCard 
                             key={exp.id}
