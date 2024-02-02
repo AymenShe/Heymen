@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/CV - Aymen Alloune.pdf'
 import bg from '../assets/png/bg.png'
 
 export const headerData = {

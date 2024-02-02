@@ -167,7 +167,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='CV_Aymen_Alloune'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
