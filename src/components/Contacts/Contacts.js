@@ -208,11 +208,12 @@ function Contacts() {
                                     Message
                                 </label>
                                 <textarea
-                                    placeholder='Écrivez votre message...'
+                                    placeholder='Cette fonctionnalité est en désactivé pour le moment.'
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                     type='text'
                                     name='Message'
+                                    value="Cette fonctionnalité est désactivé pour le moment."
                                     className={`form-message ${classes.message}`}
                                 />
                             </div>
@@ -221,6 +222,7 @@ function Contacts() {
                                 <button
                                     type='submit'
                                     className={classes.submitBtn}
+                                    disabled
                                 >
                                     <p>{!success ? 'Envoie' : 'Envoie'}</p>
                                     <div className='submit-icon'>
